@@ -1,5 +1,6 @@
 import { checkForName } from './js/nameChecker'
 import { handleSubmit } from './js/formHandler'
+import { generate } from "./js/api";
 
 import './styles/resets.scss'
 import './styles/base.scss'
@@ -13,5 +14,6 @@ alert("I EXIST")
 
 export {
     checkForName,
-    handleSubmit
+    handleSubmit,
+    generate
 }
